@@ -1585,14 +1585,10 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.0.0-beta.6.tgz#28592f8d7b5e0f7039097b722e15ee72f3fe9819"
   integrity sha512-cpaTp123l1fJgA5XpFkoodE3hTkVuvo7HEL6j9ktKb+dIkt8WDeWXPLjoPYM7qEpB2ls9uLe4sa3DhkGfnyGPA==
 
-"@vue/test-utils@1.0.0-beta.31":
-  version "1.0.0-beta.31"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.31.tgz#580d6e45f07452e497d69807d80986e713949b73"
-  integrity sha512-IlhSx5hyEVnbvDZ3P98R1jNmy88QAd/y66Upn4EcvxSD5D4hwOutl3dIdfmSTSXs4b9DIMDnEVjX7t00cvOnvg==
-  dependencies:
-    dom-event-types "^1.0.0"
-    lodash "^4.17.15"
-    pretty "^2.0.0"
+"@vue/test-utils@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.0-alpha.6.tgz#094ef8bf1234e60628c684d1e24b13ff74131580"
+  integrity sha512-7GaFJve/ljFBzZxhJstg53TlWIZ1hDVHHQnoSbcI32YYkmzZv1rFyMta6hQIAiH+Sel7P9XVfIvb8DTY5u9wEw==
 
 "@vue/web-component-wrapper@^1.2.0":
   version "1.2.0"
@@ -3798,11 +3794,6 @@ dom-converter@^0.2:
   integrity sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==
   dependencies:
     utila "~0.4"
-
-dom-event-types@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/dom-event-types/-/dom-event-types-1.0.0.tgz#5830a0a29e1bf837fe50a70cd80a597232813cae"
-  integrity sha512-2G2Vwi2zXTHBGqXHsJ4+ak/iP0N8Ar+G8a7LiD2oup5o4sQWytwqqrZu/O6hIMV0KMID2PL69OhpshLO0n7UJQ==
 
 dom-serializer@0:
   version "0.2.2"
@@ -8415,7 +8406,7 @@ pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
-pretty@2.0.0, pretty@^2.0.0:
+pretty@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pretty/-/pretty-2.0.0.tgz#adbc7960b7bbfe289a557dc5f737619a220d06a5"
   integrity sha1-rbx5YLe7/iiaVX3F9zdhmiINBqU=
